@@ -6,6 +6,8 @@ import mysql from '../img/mysql1.jpg';
 import javaUni from '../img/java-universidad.png';
 import pl from '../img/plsql.png';
 import spring from '../img/Spring-BOOT.jpg';
+import react from '../img/react.jpg';
+import python from '../img/python.jpg';
 
 function Tarjeta(){
     return (
@@ -115,6 +117,68 @@ function Tarjeta(){
         
       </Card>
     </CardGroup>
+
+
+
+
+
+
+
+    <CardGroup>
+      <Card>
+        <Card.Img variant="top" src={react} />
+        <Card.Body>
+          <Card.Title>React</Card.Title>
+          <Card.Text>
+                Domina uno de los Frameworks más demandados para el desarrollo en el frontend.
+                Desarrollando aplicaciones web con SPA, la utilizacion Hooks y distintas librerias para complementar la aplicación web.
+
+                <br></br>
+                <br></br>
+                <Card.Title>Para mas información contactenos. </Card.Title>
+          </Card.Text>
+        </Card.Body>
+        
+        
+      </Card>
+      <Card>
+        <Card.Img variant="top" src={python} />
+        <Card.Body>
+          <Card.Title>PYTHON</Card.Title>
+          <Card.Text>
+                Domina uno de los lenguaje de programación mas demandado por las empresas.
+                Aprenderas los principios de la programación desarrollando aplicaciones, con las mejores practicas de programación.
+                <br></br>
+                <br></br>
+              
+               
+               
+                <Card.Title>Para mas información contactenos. </Card.Title>
+          </Card.Text>
+        </Card.Body>
+       
+      </Card>
+      <Card>
+        <Card.Img variant="top" src={spring} />
+        <Card.Body>
+          <Card.Title>Spring boot</Card.Title>
+          <Card.Text>
+                Domina uno de los Frameworks más demandados del mercado.
+                Spring boot es una herramienta que nos permite utilizar el farmework spring 
+                de una forma mas amigable para el desarrollo de desoftware.
+                <br></br>
+                <br></br>
+                
+                <Card.Title>Para mas información contactenos. </Card.Title>
+          </Card.Text>
+        </Card.Body>
+        
+      </Card>
+    </CardGroup>
+
+
+
+
 
     </div>
       );
