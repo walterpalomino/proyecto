@@ -187,7 +187,6 @@ function Tarjeta(){
       <div class="empieza ">
         <h4>COMIENZA EN ABRIL</h4>
       </div>
-
     </div>
       );
 }
