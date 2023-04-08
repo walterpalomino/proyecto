@@ -8,6 +8,9 @@ import pl from '../img/plsql.png';
 import spring from '../img/Spring-BOOT.jpg';
 import react from '../img/react.jpg';
 import python from '../img/python.jpg';
+import mensaje from '../img/whap.png';
+
+import './tarjetaStilo/tarjeta.css';
 
 function Tarjeta(){
     return (
@@ -175,10 +178,15 @@ function Tarjeta(){
         
       </Card>
     </CardGroup>
+    <div class="container-boton ">
+        <a href="https://wa.me/5493512101216?text=Hola!!%20solicito%20mas%20información%20de%20los%20cursos%20" target="_blank">
+            <img  src={mensaje} alt="" class="boton" />              
+        </a>
+      </div>
 
-
-
-
+      <div class="empieza ">
+        <h4>COMIENZA EN ABRIL</h4>
+      </div>
 
     </div>
       );
